@@ -44,7 +44,7 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
-## Pasos para utilizar la iamgen de Docker Hub
+## Pasos para utilizar la imagen de Docker Hub
 
 ```bash
 # visita nuestra imagen en Docker Hub
