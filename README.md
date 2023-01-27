@@ -49,7 +49,7 @@ $ npm run start:prod
 ```bash
 # visita nuestra imagen en Docker Hub
 
-[Docke Hub](https://hub.docker.com/repository/docker/hchinuri/nest-node-matrix/tags?page=1&ordering=last_updated) 
+[Docke Hub](https://hub.docker.com/r/hchinuri/nest-node-matrix) 
 
 # Descargar la imagen
 $ docker pull hchinuri/nest-node-matrix:1.0.0
