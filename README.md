@@ -44,6 +44,25 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+## Pasos para utilizar la iamgen de Docker Hub
+
+```bash
+# visita nuestra imagen en Docker Hub
+
+[Docke Hub](https://hub.docker.com/repository/docker/hchinuri/nest-node-matrix/tags?page=1&ordering=last_updated) 
+
+# Descargar la imagen
+$ docker pull hchinuri/nest-node-matrix:1.0.0
+
+# Crear el contenedor a partir de la imagen descargada
+$ docker run -d -p 8081:3000 --name node-app hchinuri/nest-node-matrix:1.0.0
+
+# Test de funcionalidad en el navegador
+http://localhost:8081
+
+
+```
+
 
 ## Test
 
